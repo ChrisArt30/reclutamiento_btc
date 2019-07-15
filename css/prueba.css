@@ -1,1 +1,38 @@
 /* En este archivo debe agregar las clases CSS que considere necesarias para la realización de las pruebas de páginas Estáticas */
+
+.btn-circle {
+    width: 150px;
+    height: 150px;
+    padding: 10px 16px;
+    border-radius: 75px;
+    font-size: 45px;
+    text-align: center;
+    line-height: 1.33;
+}
+
+h3.serv {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 750px) {
+    h3.serv { font-size: 1.125rem; }
+ }
+
+p.serv {
+    padding-bottom: 1rem;
+    font-size: 14px;
+}
+
+div.serv{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+button.send{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
