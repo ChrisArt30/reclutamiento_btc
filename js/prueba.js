@@ -27,11 +27,6 @@ function validarForm() {
         val.style.display='block'; }
     }
 
-    if (!(/\S+@\S+\.\S+/.test(correo))) {
-        alert('ERROR: Debe escribir un correo válido');
-        return false;
-    }
-
 
     alert("Nombre: " + c1.value + "\n" +
         "Apellidos: " + c3.value + "\n" +
